@@ -1,0 +1,42 @@
+{
+  "openevalz_version": 1,
+  "eval": {
+    "id": "mcptox",
+    "slug": "mcptox",
+    "title": "MCPTox: Tool Poisoning Attacks on Real-World MCP Servers",
+    "group": "",
+    "tags": [
+      "Agent",
+      "Safeguards"
+    ],
+    "source": "register"
+  },
+  "upstream": {
+    "repo": "https://github.com/UKGovernmentBEIS/inspect_evals",
+    "path": "register/mcptox",
+    "inspect_ai": "0.3.260",
+    "eval_version": "",
+    "dependency": ""
+  },
+  "execution": {
+    "class": "network",
+    "cost_class": "low",
+    "sandbox": null,
+    "requires_internet": true,
+    "fast": false,
+    "supports_k8s": false,
+    "environment": ""
+  },
+  "tasks": [
+    {
+      "name": "mcptox",
+      "samples": 0
+    }
+  ],
+  "total_samples": 0,
+  "external_assets": [],
+  "scaffolds": [
+    "baseline"
+  ],
+  "generated": "2026-08-25"
+}
